@@ -43,4 +43,40 @@ person['lname']='Elamurugu Selvan';
 
 console.log(person['lname']);
 
+// Arrays is a data structure used to represent the list of items
+// we can store different data types in array
+// array size is dynamic
+//  array is an object in javascript
+let selectedColors= ['red','blue','Yellow'];
+console.log(selectedColors);
+
+
+function greet(name, lastName) {
+    console.log('Hello ', name , lastName);
+    
+}
+greet('Prabu', 'Selvan');
+
+function square(num) {
+    return num*num;
+
+}
+
+console.log(square(5));
+
+const arr = [101,2,3,4,5];
+
+for (let val in arr) 
+    console.log(val);  // for in gives in the index of an array
+    
+
+// let  sum =0
+// for (let val of arr) 
+//     sum+=val
+// console.log(sum);
+
+// using reduce
+
+// let sum = arr.reduce((acc, curr)=> acc +  curr)
+// console.log(sum);
 
