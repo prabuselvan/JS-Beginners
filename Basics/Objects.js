@@ -238,3 +238,22 @@ console.log(message);
 console.log(message.toUpperCase());
 console.log(message);
 console.log(message.trim());
+
+// Dates in JS
+
+const now= new Date();
+console.log(now);
+
+const date1 = new Date('Jan 9 2019 11:23');
+console.log(date1);
+
+console.log(date1.getMonth());
+
+now.setFullYear(2017);
+
+console.log(now);
+
+console.log(now.toDateString());
+console.log(now.toTimeString());
+console.log(now.toISOString());
+
